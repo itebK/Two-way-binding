@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  isAuth = false;
   title = 'mon-projet-angular';
+  
+  constructor() {
+  }
+  onAllumer() {
+    console.log('On allume tout !');
+}
 }
